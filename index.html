@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style css/styile.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="./jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <script src="./account js file/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header-section">
+    <div class="top-header flex">
+      <img src="./images/Picture1.png" alt="">
+      <h1>Accounting sistem</h1>
+      <p class="timeclass" id="timep"></p>
+    </div>
+    <nav>
+      <div class="nav-bar flex">
+        <ul class="flex nav-ul">
+          <li><a href="index.html?option=Home">Home</a></li>
+          <li><a href="index.html?option=Abou">About</a></li>
+          <li><a href="index.html?option=Servicer">Servicer</a></li>
+          <li><a href="index.html?option=Contect">Contect</a></li>
+        </ul>
+        <ul class="flex nav-ul buy-sell">
+          <li><a href="index.html?option=Buy">Buy</a></li>
+          <li><a href="index.html?option=Sell">Sell</a></li>
+          <li><a href="index.html?option=Pay">Pay</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="flex">
+    <div class="left-section">
+      <ul class="left-sec-ul">
+        <li><a href="index.html?option=Compane">Compane</a></li>
+        <li><a href="index.html?option=Accounts">Accounts</a></li>
+        <li><a href="index.html?option=Coustomer">Coustomer</a></li>
+        <li><a href="index.html?option=Items">Product</a></li>
+        <li><a href="index.html?option=Vendors">Vendors</a></li>
+        <li><a href="index.html?option=Employes">Employes</a></li>
+        <li><a href="index.html?option=Bamks">Bamks</a></li>
+        <li><a href="index.html?option=Reports">Reports</a></li>
+      </ul>
+    </div>
+    <!-- man data section -->
+    <div class="right-section" id="rightsection">
+      <div class="cards-row d-flex justify-content-evenly">
+
+        <div class="card m-3" style="width: 19rem;">
+          <div class="card-body">
+            <h5 class="card-title">Companies data</h5>
+            <p class="card-text" id="companiesonepara"></p>
+            <a href="index.html?option=Compane" class="btn btn-primary">Companies Data</a>
+          </div>
+        </div>
+    
+    
+        <div class="card m-3" style="width: 19rem;">
+          <div class="card-body">
+            <h5 class="card-title">Product details</h5>
+            <p class="card-text" id="productpara"></p>
+            <p class="card-text" id="productaverig"></p>
+            <p class="card-text" id="producttotalvalue"></p>
+            <a href="index.html?option=Items" class="btn btn-primary">See product</a>
+          </div>
+        </div>
+    
+    
+    
+        <div class="card m-3" style="width: 19rem;">
+          <div class="card-body">
+            <h5 class="card-title">Vander Details</h5>
+            <p class="card-text" id="vanderdetails"></p>
+            <a href="index.html?option=Vendors" class="btn btn-primary">See your vandors</a>
+          </div>
+        </div>
+    
+    
+      </div>
+    
+      <div class="cards-row d-flex justify-content-evenly">
+    
+        <div class="card m-3" style="width: 19rem;">
+          <div class="card-body">
+            <h5 class="card-title">Employes details</h5>
+            <p class="card-text" id="employesdetails"></p>
+            <p class="card-text" id="employessalerypayable"></p>
+            <a href="index.html?option=Employes" class="btn btn-primary">See employes</a>
+          </div>
+        </div>
+    
+    
+        <div class="card m-3" style="width: 19rem;">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    
+    
+    
+        <div class="card m-3" style="width: 19rem;">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    
+    
+      </div>
+
+    </div>
+  </section>
+  
+  <script src="./account js file/emlpoyes.js"></script>
+  <script src="./account js file/purchess.js"></script>
+  <script src="./account js file/vanders.js"></script>
+  <script src="./account js file/product.js"></script>
+  <script src="./account js file/companies.js"></script>
+  <script src="./account js file/master.js"></script>
+
+</body>
+</html>

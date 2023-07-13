@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    color: #183b56;
+}
+.flex{
+    display: flex;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'roboto',sans-serif;
+    font-size: 1.25rem;
+    color: #577592;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+/* Header top */
+.header-section{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.top-header{
+    align-items: center;
+    background-image: url(../images/Online-event-registration-800x400.png);
+    background-position: bottom;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header h1{
+    margin-left: 200px;
+}
+.top-header img{
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 110px;
+}
+.top-header p{
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+}
+/* Nave bar ul */
+.nav-bar{
+    align-items: center;
+    /* border: 1px solid blue; */
+    justify-content: space-around;
+    margin-left: 152px;
+}
+.nav-ul{
+    gap: 30px;
+    margin-top: 10px;
+}
+.nav-ul li a{
+    transition: 0.2s ease-in-out;
+}
+.nav-ul li a:hover{
+    color: #183b56;
+    font-weight: bold;
+}
+.buy-sell li a{
+    padding: 3px 10px;
+    background-color: #919ba5;
+    border-radius: 5px;
+}
+/* Left section */
+.left-section{
+    width: 11%;
+    height: 40vw;
+    background-image: url(../images/Online-event-registration-800x400.png);
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    position: fixed;
+}
+.left-sec-ul{
+    margin-top: 10px;
+}
+.left-sec-ul li{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.left-sec-ul li a{
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+.left-sec-ul li a:hover{
+    font-weight: bold;
+}
+/* data section */
+.right-section{
+    border: 1px solid blue;
+    top: 123px;
+    left: 75px;
+    width: 1100px;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+}
