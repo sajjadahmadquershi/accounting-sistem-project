@@ -60,7 +60,7 @@ let employes = [
                 '</tr>';
                 secelerytotal = secelerytotal+netcelery
         }; 
-          employessalerypayable.innerHTML = 'Total saleery payable '+Math.trunc(secelerytotal);
+          //employessalerypayable.innerHTML = 'Total saleery payable '+Math.trunc(secelerytotal);
         protable += '<tr>' +
         '<td class="align-middle">' +[i+1]+  '</td>' +
         '<td class="align-middle">' + ` <input type="text" value="" class="form-control" placeholder="Vander name" aria-label="First name" id="employename">` + '</td>' + 
